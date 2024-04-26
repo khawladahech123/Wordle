@@ -47,7 +47,7 @@ function initialize() {
     else if (e.code=="Enter"){
       update();
       row+=1;
-      col+=0;
+      col =0;
     }
     if(!gameOver && row == height){
       gameOver = true;
